@@ -1,6 +1,6 @@
 # Create a software entry for this repository
 carrot_cli software create --name example-test --description "An example CARROT test software" \
---repository_url https://github.com/broadinstitute/carrot-example-test/example-carrot-test
+--repository_url https://github.com/broadinstitute/carrot-example-test
 
 # Create results for the data file and comparison file that will be output by the test and eval wdl
 carrot_cli result create --name "example data file" \
